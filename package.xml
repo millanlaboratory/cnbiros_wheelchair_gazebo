@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>cnbiros_wheelchair_gazebo</name>
+  <version>0.0.1</version>
+  <description>CNBIROS Wheelchair Gazebo package</description>
+  <author email="luca.tonin@epfl.ch">Luca Tonin</author>
+  <maintainer email="luca.tonin@epfl.ch">Luca Tonin</maintainer>
+
+  <license>GPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+  <build_depend>cmake_modules</build_depend>
+
+  <build_depend>gazebo_ros</build_depend>
+  <run_depend>gazebo_ros</run_depend>
+</package>
