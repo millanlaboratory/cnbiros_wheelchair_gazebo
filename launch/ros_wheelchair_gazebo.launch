@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+	<!-- Include the gazebo world (in cnbiros_wheelchair_gazebo)/worlds/ -->
+	<arg name="world" default="empty.world" />
+	<include file="$(find gazebo_ros)/launch/empty_world.launch">
+		<arg name="world_name" value="$(find cnbiros_wheelchair_gazebo)/worlds/$(arg world)"/>
+	</include>
+
+	<!-- Set the robot description parameter -->
+	<param name="robot_description" command="$(find xacro)/xacro --inorder $(find cnbiros_wheelchair_description)/urdf/wheelchair.urdf.xacro" />
+	
+	<!-- Spawn the wheelchair model in gazebo -->
+	<node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model wheelchair" />
+</launch>
