@@ -81,10 +81,10 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <state world_name='default'>
-      <sim_time>826 594000000</sim_time>
-      <real_time>464 606322744</real_time>
-      <wall_time>1516625898 692871439</wall_time>
-      <iterations>452771</iterations>
+      <sim_time>1020 327000000</sim_time>
+      <real_time>194 257814157</real_time>
+      <wall_time>1519143990 109264847</wall_time>
+      <iterations>193733</iterations>
       <model name='ground_plane'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -196,10 +196,10 @@
         </link>
       </model>
       <model name='wall_0_clone_1_clone_clone_clone_clone'>
-        <pose frame=''>5.5423 6.6851 22.0261 2e-06 0.000854 1.57332</pose>
+        <pose frame=''>5.56611 6.72252 0.485958 2e-06 0.000854 1.57332</pose>
         <scale>1 0.609024 1</scale>
         <link name='link'>
-          <pose frame=''>5.5423 6.6851 22.0261 2e-06 0.000854 1.57332</pose>
+          <pose frame=''>5.56611 6.72252 0.485958 2e-06 0.000854 1.57332</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -439,7 +439,7 @@
     </model>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>4.37517 2.20338 3.4217 -0.956586 1.56994 2.16922</pose>
+        <pose frame=''>3.48778 2.00259 6.02384 -0 1.5698 -0.002779</pose>
         <view_controller>ortho</view_controller>
         <projection_type>orthographic</projection_type>
       </camera>
@@ -1665,6 +1665,6 @@
       <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
       <pose frame=''>-1.33623 6.5461 0.496151 -0.000854 0 0.000614</pose>
-    </model>
+	</model> 
   </world>
 </sdf>
